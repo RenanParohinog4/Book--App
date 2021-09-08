@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+/* ---Main style */
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   max-width: 720px;
+   margin: auto;
+
+}
+.form{
+    width: 80%;
+}
+.table{
+    border: 1px solid grey;
+    width: 80%;
+}
+th{
+    text-align: start;
+    padding-bottom: 1px;
+}
+/* ---end--- */
+
+.header-title,
+.table{
+    margin: 2rem;
+}
+/* -----------Form group---------- */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+/* btn */
+.btn{
+    background-color: rgb(156, 159, 185);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*-----------End------------ */
+.remove{
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+}

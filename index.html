@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist app</title>
+
+     <!-- Font awesome -->
+     <script src="https://kit.fontawesome.com/bd9125b99d.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header-title"><i class="fas fa-book-open"></i>Booklist app</h1>
+        <form action="" class="form">
+            <div class="form-group">
+                <label for="">Title</label>
+                <input type="text" id="title" class="form-control"> 
+            </div>
+            <div class="form-group">
+                <label for="">Author</label>
+                <input type="text" id="author" class="form-control"> 
+            </div>
+            <div class="form-group">
+                <label for="">ISBN#</label>
+                <input type="text" id="isbn" class="form-control"> 
+            </div>
+            <input type="submit" value = "Add book" class="btn"> 
+        </form>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
